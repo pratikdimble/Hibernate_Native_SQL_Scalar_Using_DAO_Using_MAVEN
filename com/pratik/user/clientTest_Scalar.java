@@ -14,7 +14,7 @@ public class clientTest_Scalar {
 	{
 		//use dao
 				DAO_Interface dao=DAO_Factory.getInstance();
-				//call getList method
+				//call getList method usung object collection
 				List<Object[]> list=dao.getList();
 				//display the list
 							for(Object[]row:list) {
